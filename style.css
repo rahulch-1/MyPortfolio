@@ -40,7 +40,7 @@
   padding: 0 0px;
   display: flex;
   height: 14px;
-  width: 200px;
+  width: 90%;
 }
 
 .progress-value1 {
@@ -81,7 +81,7 @@
   padding: 0 0px;
   display: flex;
   height: 14px;
-  width: 200px;
+  width: 90%;
 }
 
 .progress-value2 {
@@ -122,7 +122,7 @@
   padding: 0 0px;
   display: flex;
   height: 14px;
-  width: 200px;
+  width: 90%;
 }
 
 .progress-value3 {
@@ -163,7 +163,7 @@
   padding: 0 0px;
   display: flex;
   height: 14px;
-  width: 200px;
+  width: 90%;
 }
 
 .progress-value4 {
@@ -206,7 +206,7 @@ body {
 }
 
 .hero-image {
-  background-image: url(../images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  background-image: url(images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
   position: relative;
 
   width: 250px;
@@ -317,7 +317,7 @@ ul a:hover {
   height: 280px;
   position: relative;
   top: 231px;
-  left: 564px;
+  left: 38%;
 }
 
 .about {
@@ -371,6 +371,8 @@ ul a:hover {
   flex-wrap: wrap;
 }
 .skills-item {
+  width: 20%;
+  height: 20%;
   padding: 30px;
   border-radius: 5px;
   text-align: center;

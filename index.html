@@ -13,6 +13,9 @@
 
     <style>
       @media (min-width: 1200px) and (max-width: 1300px) {
+        .bg {
+          height: 80vh;
+        }
         .logo {
           position: relative;
           bottom: 45px;
@@ -22,6 +25,9 @@
         }
       }
       @media (min-width: 1100px) and (max-width: 1200px) {
+        .bg {
+          height: 83vh;
+        }
         nav ul {
           float: right;
           list-style-type: none;
@@ -49,13 +55,16 @@
           left: 150%;
           position: relative;
           top: 190px;
-          right: 20px;
+          right: 80px;
           font-family: montserrat;
           color: rgb(212, 77, 167);
           font-size: 30px;
         }
       }
-      @media (min-width: 900px) and (max-width: 1100px) {
+      @media (min-width: 1000px) and (max-width: 1100px) {
+        .bg {
+          height: 86vh;
+        }
         nav ul {
           float: right;
           list-style-type: none;
@@ -80,7 +89,7 @@
         .home_cont {
           display: inline-block;
           width: 250px;
-          left: 150%;
+          left: 300px;
           position: relative;
           top: 190px;
           right: 20px;
@@ -89,7 +98,47 @@
           font-size: 30px;
         }
       }
+      @media (min-width: 900px) and (max-width: 1000px) {
+        .bg {
+          height: 86vh;
+        }
+        nav ul {
+          float: right;
+          list-style-type: none;
+          margin-right: 60px;
+        }
+        nav ul li a {
+          font-size: 18px;
+          padding: 4px 9px;
+        }
+        nav ul li {
+          display: inline-block;
+          line-height: 105px;
+          margin: 0 8px;
+        }
+        .logo {
+          position: relative;
+          bottom: 41px;
+          left: 47px;
+          right: 10px;
+          font-size: 27px;
+        }
+        .home_cont {
+          display: inline-block;
+          width: 240px;
+          left: 400px;
+          position: relative;
+          top: 190px;
+          right: 25px;
+          font-family: montserrat;
+          color: rgb(212, 77, 167);
+          font-size: 30px;
+        }
+      }
       @media (min-width: 800px) and (max-width: 900px) {
+        .bg {
+          height: 88vh;
+        }
         nav ul {
           float: right;
           list-style-type: none;
@@ -114,7 +163,44 @@
         .home_cont {
           display: inline-block;
           width: 250px;
-          left: 150%;
+          left: 200px;
+          position: relative;
+          top: 190px;
+          right: 20px;
+          font-family: montserrat;
+          color: rgb(212, 77, 167);
+          font-size: 30px;
+        }
+      }
+      @media (min-width: 800px) and (max-width: 900px) {
+        .bg {
+          height: 88vh;
+        }
+        nav ul {
+          float: right;
+          list-style-type: none;
+          margin-right: 60px;
+        }
+        nav ul li a {
+          font-size: 15px;
+          padding: 4px 9px;
+        }
+        nav ul li {
+          display: inline-block;
+          line-height: 90px;
+          margin: 0 8px;
+        }
+        .logo {
+          position: relative;
+          bottom: 35px;
+          left: 47px;
+          right: 10px;
+          font-size: 23px;
+        }
+        .home_cont {
+          display: inline-block;
+          width: 250px;
+          left: 400px;
           position: relative;
           top: 190px;
           right: 20px;
@@ -124,6 +210,9 @@
         }
       }
       @media (min-width: 700px) and (max-width: 800px) {
+        .bg {
+          height: 90vh;
+        }
         nav ul {
           float: right;
           list-style-type: none;
@@ -148,16 +237,19 @@
         .home_cont {
           display: inline-block;
           width: 240px;
-          left: 150%;
+          left: 300px;
           position: relative;
           top: 200px;
-          right: 20px;
+          right: 80px;
           font-family: montserrat;
           color: rgb(212, 77, 167);
           font-size: 27px;
         }
       }
       @media (min-width: 600px) and (max-width: 700px) {
+        .bg {
+          height: 90vh;
+        }
         nav ul {
           float: right;
           list-style-type: none;
@@ -182,13 +274,51 @@
         .home_cont {
           display: inline-block;
           width: 235px;
-          left: 160%;
+          left: 250px;
           position: relative;
           top: 200px;
-          right: 20px;
+          right: 80px;
           font-family: montserrat;
           color: rgb(212, 77, 167);
           font-size: 25px;
+        }
+      }
+
+      @media (min-width: 300px) and (max-width: 600px) {
+        .bg {
+          height: 100vh;
+        }
+        nav ul {
+          float: right;
+          list-style-type: none;
+          margin-right: 40px;
+        }
+        nav ul li a {
+          font-size: 8px;
+          padding: 1px 7px;
+        }
+        nav ul li {
+          display: inline-block;
+          line-height: 55px;
+          margin: 0 6px;
+        }
+        .logo {
+          position: relative;
+          bottom: 22px;
+          left: 47px;
+          right: 10px;
+          font-size: 10px;
+        }
+        .home_cont {
+          display: inline-block;
+          width: 235px;
+          left: 200px;
+          position: relative;
+          top: 450px;
+          right: 20px;
+          font-family: montserrat;
+          color: rgb(212, 77, 167);
+          font-size: 20px;
         }
       }
     </style>
@@ -196,7 +326,7 @@
   <body>
     <section class="home_main" id="Home">
       <nav class="navbar">
-        <img src="./images/CR.png" class="img-logo" />
+        <img src="images/CR.png" class="img-logo" />
         <label class="logo">Rahul's Portfolio</label>
         <ul class="list_items">
           <li><a class="l_item" href="#Home">Home</a></li>
