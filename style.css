@@ -81,7 +81,7 @@
   padding: 0 0px;
   display: flex;
   height: 14px;
-  width: 90%;
+  width: 90px;
 }
 
 .progress-value2 {
@@ -122,7 +122,7 @@
   padding: 0 0px;
   display: flex;
   height: 14px;
-  width: 90%;
+  width: 200%s;
 }
 
 .progress-value3 {
@@ -163,7 +163,7 @@
   padding: 0 0px;
   display: flex;
   height: 14px;
-  width: 90%;
+  width: 90px;
 }
 
 .progress-value4 {
