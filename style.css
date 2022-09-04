@@ -544,3 +544,9 @@ label #btn {
   float: right;
   display: none;
 }
+
+.mail {
+  margin: auto;
+  text-align: center;
+  color: greenyellow;
+}
